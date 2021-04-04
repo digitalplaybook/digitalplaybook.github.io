@@ -43,12 +43,12 @@ title: Home
 							<h4 class="govuk-heading-s"><a href="{{ weeknote.url }}" class="govuk-link">{{ weeknote.title }}</a></h4>
 							<!-- <p class="byline author vcard">
 								<span class="govuk-visually-hidden">Posted by:</span>
-								<span class="author url fn" rel="author">{{ weeknote.author }}</span>,
+								<span class="author url fn" rel="author">{{ weeknote.author }}</span>
 								<span class="govuk-visually-hidden">Posted on:</span>
 								<time class="updated" datetime="2020-10-02" pubdate="">{{ weeknote.date | date: '%B %d %Y' }}</time>
 							</p> -->
-							<p class="govuk-body-m">{{ weeknote.excerpt | strip_html | strip_newlines | truncate: 50 }}</p>
-							<a href="{{ weeknote.url }}" class="govuk-link">Read more</a>
+							<!-- <p class="govuk-body-m">{{ weeknote.excerpt | strip_html | strip_newlines | truncate: 50 }}</p> -->
+							<!-- <a href="{{ weeknote.url }}" class="govuk-link">Read more</a> -->
 						</article>
 					{% endfor %}
         </div>
