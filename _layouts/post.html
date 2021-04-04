@@ -19,7 +19,7 @@ layout: default
           </p> -->
           <p class="byline author vcard">
             <span class="govuk-visually-hidden">Posted by:</span>
-            <span class="author url fn" rel="author">{{ page.author }}</span>, 
+            <span class="author url fn" rel="author">{{ page.author }}</span>,
             <span class="govuk-visually-hidden">Posted on:</span>
             <time class="updated" datetime="2020-10-02" pubdate="">{{ page.date | date_to_string }}</time>
           </p>
@@ -34,11 +34,11 @@ layout: default
             </h2>
             <nav role="navigation" aria-labelledby="subsection-title">
                 <ul class="govuk-list govuk-!-font-size-16">
-                  <li><a href="#">Main content</a></li>
+                  <li><a href="{{ site.baseurl }}/playbook.html">Delivery Playbook</a></li>
 
-                  <li><a href="#">Homepage</a></li>
+                  <li><a href="{{ site.baseurl }}/about.html">Our Team</a></li>
 
-                  <li><a href="#">Another link</a></li>
+                  <li><a href="{{ site.baseurl }}/roadmap.html">Roadmap</a></li>
                   </ul>
               </nav>
         </aside>
