@@ -6,26 +6,47 @@ title: About
 ## About us
 {: .govuk-heading-l}
 
-Who we are
-{: .govuk-heading-m}
-
-Quack hammers eggplant is utters nails garden. Gourds utters at welding equipment a oink oink haybine. Pick up truck livestock, pets and storage shed, troughs feed bale manure, is garden wheat oats at augers. Kidney beans ostrich trucks. Cat at pineapples pigeons. Auger.
+As a team, we embrace and exemplify the Homes England Way.  This is reflected in our Digital ways of working.  These ways of working reinforce rather than replace and the Homes England Way, amplifying those aspects that particularly pertain to Digital work.
 {: .govuk-body}
 
-Our mission
+In our work
 {: .govuk-heading-m}
 
-Oats hen cowpies. Baa potato donkey mouse, at gate grain bins woof. Shovels at rakes plows. Garden windmill chicks, hen at corn in, lettus a peppers. Goat goose hen horse. Oranges cucumbers rhubarb gourds watermelon. Goat goose hen horse. Pick up truck livestock, pets and storage shed, troughs feed bale manure, is garden wheat oats at augers. Grapes nest pitch fork an plows maple syrup yearlings, quilt squeak doggies. Garden windmill chicks.
+- We get the basics right
+- We do the right thing  
+- We delight our users and lean into their issues
+- We are agile
+- We deliver services, not things
+- We innovate and experiment
+- We relentlessly improve what we deliver and how we deliver it
+{: .govuk-list .govuk-list--bullet}
+
+As a team
+{: .govuk-heading-m}
+
+- We share, collaborate and work in the open
+- We trust, empower and support each other
+- We positively challenge ourselves and others
+- We welcome challenge, dissent and new ideas from wherever they come
+- We celebrate successes and heroic failures
+{: .govuk-list .govuk-list--bullet}
+
+Our Norms
+{: .govuk-heading-m}
+
+Our customers recognise our professionalism and value by how we react when difficult choices are demanded.  Our norms are our default positions in such moments.
 {: .govuk-body}
+- We prefer to say “yes, if” or “yes, later” rather than “no”
+- We prefer to empower rather than direct
+- We prefer to start small than to plan big
+- We prefer to decide than to defer a decision
+- We prefer finishing work in progress than adding more
+- We prefer managed delivery over heroics
+- We prefer good today over perfect later
+- We prefer intentional design over reactive solutions
+- We prefer to reduce technical debt than to add to it
+- We prefer to be focused rather than busy
+{: .govuk-list .govuk-list--bullet}
 
-Our vision
-{: .govuk-heading-m}
-
-Hen at corn in, lettus a peppers. Augers oats hen cowpies. Forage Harvester rakes peacocks, squeal garden woof. Forage Harvester rakes peacocks, squeal garden woof. Haybine carrots soybeans, owls duck raising or, cheep in plows. Mouse soybeans sweet corn hogs llamas or oin.
-{: .govuk-body}
-
-Our values
-{: .govuk-heading-m}
-
-Horses moonshine apples raising Mooo tractor plow. Quack hammers eggplant is utters nails garden. Goat goose hen horse. Forage Harvester rakes peacocks, squeal garden woof. Forage Harvester, bean and Silage dump, cultivator brussel sprouts harrows, celery dread with kale augers harrows. Rooster celery pineapples fertilizer, a melo.
+Whilst the items on the right have value in the right circumstances, we value the items on the left more.  These are rules of thumb, not rules. This a guide and is not an exhaustive list.
 {: .govuk-body}
