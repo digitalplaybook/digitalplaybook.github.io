@@ -1,0 +1,115 @@
+---
+title: Home
+---
+<header class="hero">
+		<div class="hero__content govuk-width-container">
+			<h1 class="govuk-heading-xl">Digital Delivery</h1>
+			<p class="govuk-body-l">The view of the earth from the moon fascinated me - a small disk, 240,000 mniles away. It was hard to think that that little thing held so many problems, so many frustrations. Raging nationalistic interests, famines, wars, pestilence don't show from that distance.</p>
+
+      <p class="govuk-body">Read more about <a href="/about">our team</a> and the <a href="roadmap">projects</a> we’re working on.</p>
+
+		</div>
+	</header>
+
+  <div class="govuk-section-break--l"></div>
+
+  <div class="govuk-width-container">
+    <main class="govuk-main-wrapper " id="main-content" role="main">
+
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+          <h2 class="govuk-heading-l">Blog</h2>
+        </div>
+        <div class="govuk-grid-column-two-thirds">
+					{% for post in site.posts limit:1%}
+            <article  class="govuk-body">
+              <h3 class="govuk-heading-m"><a href="{{ post.url }}" class="govuk-link">{{ post.title }}</a></h3>
+              <p class="byline author vcard">
+                <span class="govuk-visually-hidden">Posted by:</span>
+                <span class="author url fn" rel="author">{{ post.author }}</span>,
+                <span class="govuk-visually-hidden">Posted on:</span>
+                <time class="updated" datetime="2020-10-02" pubdate="">{{ post.date | date: '%B %d %Y' }}</time>
+              </p>
+              <p class="govuk-body-m">{{ post.excerpt }}</p>
+              <a href="{{ post.url }}" class="govuk-link">Read more</a>
+            </article>
+          {% endfor %}
+        </div>
+
+        <div class="govuk-grid-column-one-third">
+          <h2 class="govuk-heading-m">Weeknotes</h2>
+					{% for weeknote in site.weeknotes limit:1%}
+						<article  class="govuk-body">
+							<h4 class="govuk-heading-s"><a href="{{ weeknote.url }}" class="govuk-link">{{ weeknote.title }}</a></h4>
+							<!-- <p class="byline author vcard">
+								<span class="govuk-visually-hidden">Posted by:</span>
+								<span class="author url fn" rel="author">{{ weeknote.author }}</span>,
+								<span class="govuk-visually-hidden">Posted on:</span>
+								<time class="updated" datetime="2020-10-02" pubdate="">{{ weeknote.date | date: '%B %d %Y' }}</time>
+							</p> -->
+							<p class="govuk-body-m">{{ weeknote.excerpt | strip_html | strip_newlines | truncate: 50 }}</p>
+							<a href="{{ weeknote.url }}" class="govuk-link">Read more</a>
+						</article>
+					{% endfor %}
+        </div>
+      </div>
+
+      <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
+
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+          <h2 class="govuk-heading-l">Our Projects</h2>
+          <p class="govuk-body-l">It is for these reasons that I regard the decision last year to shift our efforts in space from low to high gear as among the most important decisions that will be made during my incumbency in the office of the Presidency.</p>
+        </div>
+
+        <div class="govuk-grid-column-one-third">
+          <div class="govuk-body-m panel">
+            <a href="/" class="govuk-link govuk-body-l">Cloud Hosting Platform</a>
+            <p>We need to future-proof this, for mobile friendly moving the goalposts, or knowledge is power finance. Your work on this project has been really impactful vec nor run it up the flagpole, for dunder mifflin.</p>
+          </div>
+        </div>
+        <div class="govuk-grid-column-one-third">
+          <div class="govuk-body-m panel">
+            <a href="/" class="govuk-link govuk-body-l">Common Components</a>
+            <p>Run it up the flagpole, ping the boss and circle back dunder mifflin for pipeline, nor translating our vision of having a market leading platfrom</p>
+          </div>
+        </div>
+        <div class="govuk-grid-column-one-third">
+          <div class="govuk-body-m panel">
+            <a href="/" class="govuk-link govuk-body-l">Data Platform</a>
+            <p>Cloud native container based mobile friendly bake it in and product launch for on-brand but completeley fresh. Locked and loaded pass the mayo, appeal to the client</p>
+          </div>
+        </div>
+      </div>
+
+      <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
+
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+          <h2 class="govuk-heading-l">Resources</h2>
+          <p class="govuk-body-l">Innovations as power makes our brand but ensure to follow requirements when developing solutions but we want to empower the team with the right tools and guidance to uplevel our craft and build better</p>
+        </div>
+        <div class="govuk-grid-column-one-third">
+          <div class="govuk-body-m panel">
+            <a href="about.html" class="govuk-link govuk-body-l">Delivery Strategy</a>
+            <p>Sweet corn at, porky pig shovels. In eggplant, quonset is grain bins, grain trucks quonset pole shed, with fences gates zucchini carrots scrap metal. Coo with rabbits ect. Apples ducks straw, quai.</p>
+          </div>
+        </div>
+        <div class="govuk-grid-column-one-third">
+          <div class="govuk-body-m panel">
+            <a href="playbook.html" class="govuk-link govuk-body-l">Delivery Playbook</a>
+            <p>A ostriches donkey, hay hook cucumbers. Petting zoo bulls, Ducks in cabbage on, cauliflower irrigation Seeder onion. Quack hammers eggplant i.</p>
+          </div>
+        </div>
+        <div class="govuk-grid-column-one-third">
+          <div class="govuk-body-m panel">
+            <a href="about.html" class="govuk-link govuk-body-l">Our Team</a>
+            <p>Dogs nails at est. Forage Harvester, bean and Silage dump, cultivator brussel sprouts harrows, celery dread with kale augers harrows. Veterinarian at Seeder eggs with watermelo.</p>
+          </div>
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+  <div class="govuk-section-break govuk-section-break--xl"></div>

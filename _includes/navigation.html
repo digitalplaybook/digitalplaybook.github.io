@@ -1,0 +1,32 @@
+<header class="govuk-header" role="banner" data-module="govuk-header">
+  <div class="govuk-header__container govuk-width-container">
+    <div>
+      <a href="/" class="govuk-header__link govuk-header__link--service-name">
+        Homes England
+      </a>
+      <button type="button" class="govuk-header__menu-button govuk-js-header-toggle" aria-controls="navigation" aria-label="Show or hide navigation menu">Menu</button>
+      <nav>
+        <ul id="navigation" class="govuk-header__navigation " aria-label="Navigation menu">
+        {% for item in site.data.navigation %}
+          <li class="govuk-header__navigation-item">
+            <a href="{{ item.link }}" class="govuk-header__link">{{ item.name }}</a>
+          </li>
+        {% endfor %}
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<div class="govuk-width-container">
+  <div class="govuk-phase-banner">
+    <p class="govuk-phase-banner__content">
+      <strong class="govuk-tag govuk-phase-banner__content__tag">
+        Prototype
+      </strong>
+      <!-- <span class="govuk-phase-banner__text">
+        This is a new service – your <a class="govuk-link" href="#">feedback</a> will help us to improve it.
+      </span> -->
+    </p>
+  </div>
+</div>

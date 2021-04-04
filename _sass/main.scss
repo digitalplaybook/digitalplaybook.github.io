@@ -1,0 +1,80 @@
+@import "../node_modules/govuk-frontend/govuk/all";
+
+// Variables
+$govuk-brand-colour:	#1d70b8;
+$white: #ffffff;
+$gds-font: "GDS Transport", arial, sans-serif;
+
+// Custom Styles
+
+.playbook p {
+  @extend .govuk-body;
+}
+
+.govuk-link, .govuk-body a {
+  @extend .govuk-link--no-visited-state;
+}
+
+.hero, .panel {
+  color: $white;
+  background: $govuk-brand-colour;
+}
+
+.hero__content {
+  max-width: 960px;
+  padding: 40px 0;
+}
+
+.hero__content .govuk-heading-xl, .hero__content .markdown-output h1, .markdown-output .hero__content h1, .hero__content .govuk-heading-l, .hero__content .markdown-output h2, .markdown-output .hero__content h2, .hero__content .govuk-body-l, .hero__content .markdown-output .govuk-body-l p, .markdown-output .govuk-body-l .hero__content p, .hero__content .govuk-body, .hero__content .markdown-output p, .markdown-output .hero__content p, .hero__content a, .panel p, .feedback-panel a {
+  color: $white !important;
+}
+
+.panel {
+  padding: 15px;
+  a {
+    color: $white !important;
+  }
+  p {
+    margin-bottom: 0;
+  }
+  h3 {
+    margin-top: 0;
+  }
+}
+
+.byline {
+  color: #505a5f;
+  font-family: $gds-font;
+}
+
+.app-related-items {
+  padding-top: 10px;
+  border-top: 10px solid $govuk-brand-colour;
+  font-family: $gds-font;
+  a {
+    color: $govuk-brand-colour;
+  }
+}
+
+.feedback-panel {
+  margin-bottom: 10px;
+  padding: 20px 30px;
+  color: #ffffff;
+  background: $govuk-brand-colour;
+  font-family: $gds-font;
+  p, a {
+    color: #ffffff !important;
+  }
+}
+
+.govuk-accordion__controls {
+  margin-bottom: 15px;
+}
+
+.govuk-list li:first-letter {
+  text-transform: capitalize;
+}
+
+.current {
+  color: green;
+}

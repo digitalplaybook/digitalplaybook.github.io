@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+{% include breadcrumbs.html %}
+
+<div class="govuk-width-container">
+  <main class="govuk-main-wrapper " id="main-content" role="main">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+        <article  class="govuk-body">
+          <h2 class="govuk-heading-l">{{ page.title }}</h2>
+          <!-- <p class="byline author vcard">
+            {{ page.date | date_to_string }}
+            {% assign author = site.authors | where: 'short_name', page.author | first %}
+            {% if author %}
+              - <a href="{{ author.url }}">{{ author.name }}</a>
+            {% endif %}
+          </p> -->
+          <p class="byline author vcard">
+            <span class="govuk-visually-hidden">Posted by:</span>
+            <span class="author url fn" rel="author">{{ page.author }}</span>, 
+            <span class="govuk-visually-hidden">Posted on:</span>
+            <time class="updated" datetime="2020-10-02" pubdate="">{{ page.date | date_to_string }}</time>
+          </p>
+          {{ content }}
+        </article>
+      </div>
+      <div class="govuk-grid-column-one-third">
+
+        <aside class="app-related-items" role="complementary">
+            <h2 class="govuk-heading-m" id="subsection-title">
+              Related content
+            </h2>
+            <nav role="navigation" aria-labelledby="subsection-title">
+                <ul class="govuk-list govuk-!-font-size-16">
+                  <li><a href="#">Main content</a></li>
+
+                  <li><a href="#">Homepage</a></li>
+
+                  <li><a href="#">Another link</a></li>
+                  </ul>
+              </nav>
+        </aside>
+
+      </div>
+    </div>
+  </main>
+  {% include feedback.html %}
+</div>

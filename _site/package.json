@@ -1,0 +1,15 @@
+{
+  "name": "homesengland",
+  "version": "1.0.0",
+  "description": "Homes England Digital",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rumman Amin",
+  "license": "ISC",
+  "dependencies": {
+    "govuk-frontend": "^3.11.0",
+    "sass": "^1.32.8"
+  }
+}
