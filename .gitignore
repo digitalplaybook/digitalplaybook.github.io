@@ -1,0 +1,14 @@
+### Jekyll ###
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+### MacOS ###
+*.DS_Store
+
+### NPM ###
+/node_modules/
+
+### Apache ###
+.htaccess
