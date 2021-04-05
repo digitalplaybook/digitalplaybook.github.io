@@ -2,7 +2,26 @@
 layout: default
 ---
 
-{% include breadcrumbs.html %}
+<div class="govuk-width-container">
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+      <div class="govuk-breadcrumbs">
+        <ol class="govuk-breadcrumbs__list">
+        {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+        {% if page.collection == 'weeknotes' %}
+        <li class="govuk-breadcrumbs__list-item"><a class="govuk-breadcrumbs__link" href="/">Home</a></li>
+        <li class="govuk-breadcrumbs__list-item"><a class="govuk-breadcrumbs__link" href="/weeknotes.html">Weeknotes</a></li>
+        <li class="govuk-breadcrumbs__list-item">{{ page.title }}</li>
+        {% else %}
+        <li class="govuk-breadcrumbs__list-item"><a class="govuk-breadcrumbs__link" href="/">Home</a></li>
+        <li class="govuk-breadcrumbs__list-item"><a class="govuk-breadcrumbs__link" href="/blog.html">Blog</a></li>
+        <li class="govuk-breadcrumbs__list-item">{{ page.title }}</li>
+        {% endif %}
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="govuk-width-container">
   <main class="govuk-main-wrapper " id="main-content" role="main">
