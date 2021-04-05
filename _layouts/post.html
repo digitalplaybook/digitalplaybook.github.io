@@ -8,12 +8,14 @@ layout: default
       <div class="govuk-breadcrumbs">
         <ol class="govuk-breadcrumbs__list">
         {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-        {% if page.collection == 'weeknotes' %}
         <li class="govuk-breadcrumbs__list-item"><a class="govuk-breadcrumbs__link" href="/">Home</a></li>
+        {% if page.collection == 'weeknotes' %}
         <li class="govuk-breadcrumbs__list-item"><a class="govuk-breadcrumbs__link" href="/weeknotes.html">Weeknotes</a></li>
         <li class="govuk-breadcrumbs__list-item">{{ page.title }}</li>
+        {% elsif page.collection == 'playbook' %}
+        <li class="govuk-breadcrumbs__list-item"><a class="govuk-breadcrumbs__link" href="/playbook.html">Playbook</a></li>
+        <li class="govuk-breadcrumbs__list-item">{{ page.title }}</li>
         {% else %}
-        <li class="govuk-breadcrumbs__list-item"><a class="govuk-breadcrumbs__link" href="/">Home</a></li>
         <li class="govuk-breadcrumbs__list-item"><a class="govuk-breadcrumbs__link" href="/blog.html">Blog</a></li>
         <li class="govuk-breadcrumbs__list-item">{{ page.title }}</li>
         {% endif %}
