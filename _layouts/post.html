@@ -36,12 +36,27 @@ layout: default
               - <a href="{{ author.url }}">{{ author.name }}</a>
             {% endif %}
           </p> -->
+          <!-- <p class="byline author vcard">
+            <span class="govuk-visually-hidden">Posted by:</span>
+            <span class="author url fn" rel="author">{{ page.author }}</span>,
+            <span class="govuk-visually-hidden">Posted on:</span>
+            <time class="updated" datetime="2020-10-02" pubdate="">{{ page.date | date_to_string }}</time>
+          </p> -->
+          {% if page.collection == 'weeknotes' %}
+          <p class="byline author vcard">
+            <span class="govuk-visually-hidden">Posted by:</span>
+            <span class="author url fn" rel="author">{{ page.author }}</span>
+            <!-- <span class="govuk-visually-hidden">Posted on:</span>
+            <time class="updated" datetime="2020-10-02" pubdate="">{{ page.date | date_to_string }}</time> -->
+          </p>
+          {% else %}
           <p class="byline author vcard">
             <span class="govuk-visually-hidden">Posted by:</span>
             <span class="author url fn" rel="author">{{ page.author }}</span>,
             <span class="govuk-visually-hidden">Posted on:</span>
             <time class="updated" datetime="2020-10-02" pubdate="">{{ page.date | date_to_string }}</time>
           </p>
+          {% endif %}
           {{ content }}
         </article>
       </div>
