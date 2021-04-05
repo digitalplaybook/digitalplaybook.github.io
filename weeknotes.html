@@ -13,25 +13,25 @@ title: Weeknotes
 
           {% for weeknote in site.weeknotes %}
             <article  class="govuk-body">
-              <h3 class="govuk-heading-m"><a href="{{ post.url }}" class="govuk-link">{{ weeknote.title }}</a></h3>
-              <p class="byline author vcard">
+              <p class="govuk-body"><a href="{{ weeknote.url }}" class="govuk-link">{{ weeknote.title }}</a></p>
+              <!-- <p class="byline author vcard">
                 <span class="govuk-visually-hidden">Posted by:</span>
                 <span class="author url fn" rel="author">{{ weeknote.author }}</span>,
                 <span class="govuk-visually-hidden">Posted on:</span>
                 <time class="updated" datetime="2020-10-02" pubdate="">{{ weeknote.date | date: '%B %d %Y' }}</time>
-              </p>
-              <p class="govuk-body-l">{{ weeknote.excerpt }}</p>
-              <a href="{{ weeknote.url }}" class="govuk-link">Read more</a>
+              </p> -->
+              <!-- <p class="govuk-body-l">{{ weeknote.excerpt }}</p> -->
+              <!-- <a href="{{ weeknote.url }}" class="govuk-link">Read more</a> -->
             </article>
-            <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
+            <!-- <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible"> -->
           {% endfor %}
 
         </div>
         <div class="govuk-grid-column-one-third">
 
-        <aside class="app-related-items" role="complementary">
+        <!-- <aside class="app-related-items" role="complementary">
             <h2 class="govuk-heading-m" id="subsection-title">
-              Weeknotes
+              Archive
             </h2>
             <nav role="navigation" aria-labelledby="subsection-title">
                 <ul class="govuk-list govuk-!-font-size-16">
@@ -40,7 +40,9 @@ title: Weeknotes
                   {% endfor %}
                 </ul>
               </nav>
-        </aside>
+        </aside> -->
+
+        {% include related.html %}
 
         </div>
 

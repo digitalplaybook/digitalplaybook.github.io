@@ -47,20 +47,7 @@ layout: default
       </div>
       <div class="govuk-grid-column-one-third">
 
-        <aside class="app-related-items" role="complementary">
-            <h2 class="govuk-heading-m" id="subsection-title">
-              Related content
-            </h2>
-            <nav role="navigation" aria-labelledby="subsection-title">
-                <ul class="govuk-list govuk-!-font-size-16">
-                  <li><a href="{{ site.baseurl }}/playbook.html">Delivery Playbook</a></li>
-
-                  <li><a href="{{ site.baseurl }}/about.html">Our Team</a></li>
-
-                  <li><a href="{{ site.baseurl }}/roadmap.html">Roadmap</a></li>
-                  </ul>
-              </nav>
-        </aside>
+        {% include related.html %}
 
       </div>
     </div>
