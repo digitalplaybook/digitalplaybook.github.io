@@ -2082,6 +2082,10 @@
 
 @media (min-width: 40.0625em) { .govuk-\!-width-one-quarter { width: 25% !important; } }
 
+* { font-family: Arial, Helvetica, sans-serif !important; }
+
+.govuk-footer__copyright-logo { background-image: none; }
+
 .hero, .panel { color: #ffffff; background: #1d70b8; }
 
 .hero__content { max-width: 960px; padding: 40px 0; }
@@ -2096,13 +2100,13 @@
 
 .panel h3 { margin-top: 0; }
 
-.byline { color: #505a5f; font-family: "GDS Transport", arial, sans-serif; }
+.byline { color: #505a5f; font-family: Arial, Helvetica, sans-serif; }
 
-.app-related-items { padding-top: 10px; border-top: 10px solid #1d70b8; font-family: "GDS Transport", arial, sans-serif; }
+.app-related-items { padding-top: 10px; border-top: 10px solid #1d70b8; font-family: Arial, Helvetica, sans-serif; }
 
 .app-related-items a { color: #1d70b8; }
 
-.feedback-panel { margin-bottom: 10px; padding: 20px 30px; color: #ffffff; background: #1d70b8; font-family: "GDS Transport", arial, sans-serif; }
+.feedback-panel { margin-bottom: 10px; padding: 20px 30px; color: #ffffff; background: #1d70b8; font-family: Arial, Helvetica, sans-serif; }
 
 .feedback-panel p, .feedback-panel a { color: #ffffff !important; }
 

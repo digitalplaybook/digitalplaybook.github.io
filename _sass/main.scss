@@ -3,7 +3,11 @@
 // Variables
 $govuk-brand-colour:	#1d70b8;
 $white: #ffffff;
-$gds-font: "GDS Transport", arial, sans-serif;
+$gds-font: Arial, Helvetica, sans-serif;
+
+* {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
 
 // Custom Styles
 
@@ -14,6 +18,12 @@ $gds-font: "GDS Transport", arial, sans-serif;
 .govuk-link, .govuk-body a {
   @extend .govuk-link--no-visited-state;
 }
+
+.govuk-footer__copyright-logo {
+  background-image: none;
+}
+
+
 
 .hero, .panel {
   color: $white;
