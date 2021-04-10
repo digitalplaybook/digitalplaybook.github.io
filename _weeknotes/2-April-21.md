@@ -1,6 +1,7 @@
 ---
 layout: post
-title: 2 April 2021
+title: 02 April 2021
+date: 2021-04-02
 author: Al Rawling
 ---
 ### Data Centre Move - Lee

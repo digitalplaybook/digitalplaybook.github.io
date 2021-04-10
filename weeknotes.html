@@ -10,7 +10,8 @@ title: Weeknotes
       <div class="govuk-grid-row">
         <div class="govuk-grid-column-two-thirds">
           <h2 class="govuk-heading-l">Weeknotes</h2>
-          {% for weeknote in site.weeknotes %}
+          {% assign weeknote = site.weeknotes | sort: 'date' %}
+					{% for weeknote in site.weeknotes reversed %}
             <article  class="govuk-body">
               <p class="govuk-body"><a href="{{ weeknote.url }}" class="govuk-link">{{ weeknote.title }}</a></p>
             </article>

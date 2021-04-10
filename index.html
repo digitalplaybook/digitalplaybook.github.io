@@ -39,9 +39,10 @@ title: Home
           {% endfor %}
         </div>
 
-        <div class="govuk-grid-column-one-third">
+        <div class="govuk-grid-column-one-third weeknotes-home">
           <h2 class="govuk-heading-m">Latest Weeknote</h2>
-					{% for weeknote in site.weeknotes limit:1%}
+					{% assign weeknote = site.weeknotes | sort: 'date' %}
+					{% for weeknote in site.weeknotes reversed %}
 						<article  class="govuk-body">
 							<h4 class="govuk-heading-s"><a href="{{ weeknote.url }}" class="govuk-link">{{ weeknote.title }}</a></h4>
 							<!-- <p class="byline author vcard">

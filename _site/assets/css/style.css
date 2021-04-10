@@ -2116,4 +2116,4 @@
 
 .current { color: green; }
 
-/*# sourceMappingURL=style.css.map */
+.weeknotes-home article:not(:first-of-type) { display: none; }

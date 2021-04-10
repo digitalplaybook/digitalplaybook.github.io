@@ -88,3 +88,9 @@ $gds-font: Arial, Helvetica, sans-serif;
 .current {
   color: green;
 }
+
+.weeknotes-home {
+  article:not(:first-of-type) {
+    display: none;
+  }
+}
