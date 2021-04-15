@@ -1,9 +1,9 @@
 ---
-title: Home
+
 ---
 <header class="hero">
 		<div class="hero__content govuk-width-container">
-			<h1 class="govuk-heading-xl">Digital Delivery</h1>
+			<h1 class="govuk-heading-xl">Homes England Digital</h1>
 			<p class="govuk-body-l">Our engaged, skilled and diverse team #makehomeshappen by delivering amazing web and technology services fit for the digital age. We are a catalyst for Homes England in its mission to intervene in the market to ensure more homes are built in areas of greatest need.</p>
 			<p class="govuk-body-l">We exist as a team to enable, empower and inspire people with great technology products and services. </p>
 
@@ -29,7 +29,7 @@ title: Home
                 <span class="govuk-visually-hidden">Posted by:</span>
                 <span class="author url fn" rel="author">{{ post.author }}</span>,
                 <span class="govuk-visually-hidden">Posted on:</span>
-                <time class="updated" datetime="2020-10-02" pubdate="">{{ post.date | date: '%B %d %Y' }}</time>
+                <time class="updated" datetime="2020-10-02" pubdate="">{{ post.date | date: '%-d %B %Y' }}</time>
               </p>
               <p class="govuk-body-m">{{ post.excerpt }}</p>
               <a href="{{ post.url }}" class="govuk-link">Read more</a>

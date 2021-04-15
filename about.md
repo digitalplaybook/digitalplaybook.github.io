@@ -3,13 +3,13 @@ layout: page
 title: About
 ---
 
-## About us
+## Homes England Digital
 {: .govuk-heading-l}
 
-As a team, we embrace and exemplify the Homes England Way.  This is reflected in our Digital ways of working.  These ways of working reinforce rather than replace and the Homes England Way, amplifying those aspects that particularly pertain to Digital work.
+As a team, we embrace and exemplify the [Homes England Way](http://www.mydevelopmenthomesengland.com/media/5858/homes-england-way-1-1.pdf). This is reflected in our Digital ways of working.  These ways of working reinforce rather than replace and the Homes England Way, amplifying those aspects that particularly pertain to Digital work.
 {: .govuk-body}
 
-In our work
+### In our work
 {: .govuk-heading-m}
 
 - We get the basics right
@@ -21,7 +21,7 @@ In our work
 - We relentlessly improve what we deliver and how we deliver it
 {: .govuk-list .govuk-list--bullet}
 
-As a team
+### As a team
 {: .govuk-heading-m}
 
 - We share, collaborate and work in the open
@@ -31,7 +31,7 @@ As a team
 - We celebrate successes and heroic failures
 {: .govuk-list .govuk-list--bullet}
 
-Our Norms
+### Our Norms
 {: .govuk-heading-m}
 
 Our customers recognise our professionalism and value by how we react when difficult choices are demanded.  Our norms are our default positions in such moments.

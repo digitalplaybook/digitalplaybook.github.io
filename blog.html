@@ -18,7 +18,7 @@ title: Blog
                 <span class="govuk-visually-hidden">Posted by:</span>
                 <span class="author url fn" rel="author">{{ post.author }}</span>,
                 <span class="govuk-visually-hidden">Posted on:</span>
-                <time class="updated" datetime="2020-10-02" pubdate="">{{ post.date | date: '%B %d %Y' }}</time>
+                <time class="updated" datetime="2020-10-02" pubdate="">{{ post.date | date: '%-d %B %Y' }}</time>
               </p>
               <p class="govuk-body-l">{{ post.excerpt }}</p>
               <a href="{{ post.url }}" class="govuk-link">Read more</a>
