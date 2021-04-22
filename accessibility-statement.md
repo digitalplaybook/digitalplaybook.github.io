@@ -29,6 +29,7 @@ We are always working to improve our website and want as many people as possible
 
 ## How accessible this website is
 We know some parts of this website are not fully accessible:
+{: .govuk-body}
 
 - you cannot modify the line height or spacing of text
 - most older PDF documents are not fully accessible to screen reader software
@@ -38,6 +39,7 @@ We know some parts of this website are not fully accessible:
 
 ## How to request content in an accessible format
 If you need information in a different format, for example large print or accessible PDF, email [deliverymanagers@homesengland.gov.uk](deliverymanagers@homesengland.gov.uk) and tell us:
+{: .govuk-body}
 
 - the web address (URL) of the content
 - your name and email address
