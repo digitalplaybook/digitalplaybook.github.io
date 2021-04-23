@@ -6,5 +6,5 @@
 #   link: /roadmap.html
 - name: Blog
   link: /blog.html
-- name: Weeknotes
-  link: /weeknotes.html
+# - name: Weeknotes
+#   link: /weeknotes.html
