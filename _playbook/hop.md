@@ -16,7 +16,7 @@ To maintain it's effectiveness, we share the agenda and associated information p
 
 The objectives of the CoP will include:
 
-1.  To advise the organisation on new project requests and fulfill initial triaging of pitch decks in the Digital Portfolio.
+1.  To advise the organisation on new project requests and fulfil initial triaging of pitch decks in the Digital Portfolio.
 2.  Formal point of contact on any tactical projects or urgent requests that will have a cross-cutting impact.
 3.  To identify, document, review and communicate best practices.
 4.  To provide a forum to discuss any resourcing or WIP challenges.
@@ -25,7 +25,7 @@ The objectives of the CoP will include:
 
 ### Professions
 
-*   [Rumman Amin](mailto:Rumman.amin@homesengland.gov.uk) – Delivery
+*   [Rumman Amin](https://twitter.com/rumantweets) – Delivery
 *   Alan Johnston – Product
 *   Justin Hannan – Infrastructure
 *   Simone Devine - Service Desk

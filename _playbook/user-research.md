@@ -1,7 +1,7 @@
 ---
 layout: post
 title: User Research
-author: Elizabeth Hitchens
+author: 
 ---
 
 At Homes England we believe in making decisions based on evidenced user needs. User researchers, help multidisciplinary teams learn about users and recognise the value of user research. There is no single right way of doing this, but as a team, we need to stay unified in the way we approach, do, and talk about research.
