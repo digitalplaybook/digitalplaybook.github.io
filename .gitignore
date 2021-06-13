@@ -12,3 +12,6 @@ _site/
 
 ### Apache ###
 .htaccess
+
+### Test ###
+test
