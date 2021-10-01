@@ -25,14 +25,14 @@ The objectives of the CoP will include:
 
 ### Professions
 
-*   [Rumman Amin](https://twitter.com/rumantweets) – Delivery
-*   Alan Johnston – Product
-*   Justin Hannan – Infrastructure
-*   Simone Devine - Service Desk
-*   James Dickman - Data
-*   Michael Wright - Business Analysis
-*   Sarah Pope – UCD
-*   Robert Tong – Information Security
-*   Nikki Wilson - Assurance
-*   Phil Gillibrand - Architecture
-*   Simon Mather - Software Development
+*   Delivery
+*   Product
+*   Infrastructure
+*   Service Desk
+*   Data
+*   Business Analysis
+*   UCD
+*   Information Security
+*   Assurance
+*   Architecture
+*   Software Development
