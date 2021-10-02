@@ -1,5 +1,4 @@
 ---
-layout: post
 title: PMO
 author: Richard Yeboah
 ---

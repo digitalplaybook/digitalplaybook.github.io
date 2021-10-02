@@ -1,9 +1,16 @@
+collections:
+  weeknotes:
+    output: true
+    permalink: weeknotes/:path/
+  playbook:
+    output: true
+    permalink: playbook/:path/
+  projects:
+    output: true
+    status: true
+    permalink: projects/:path/
+
 defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
   - scope:
       path: ""
       type: "posts"
@@ -13,11 +20,13 @@ defaults:
       path: ""
     values:
       layout: "default"
-
-collections:
-  weeknotes:
-    output: true
-    permalink: weeknotes/:path/
-  playbook:
-    output: true
-    permalink: playbook/:path/
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+      type: "playbook"
+    values:
+      layout: "post"

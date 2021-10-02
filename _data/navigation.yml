@@ -2,8 +2,8 @@
   link: /about.html
 - name: Playbook
   link: /playbook.html
-# - name: Roadmap
-#   link: /roadmap.html
+- name: Projects
+  link: /projects.html
 - name: Blog
   link: /blog.html
 # - name: Weeknotes

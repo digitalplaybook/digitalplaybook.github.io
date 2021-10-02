@@ -2106,9 +2106,9 @@
 
 .app-related-items a { color: #1d70b8; }
 
-.feedback-panel { margin-bottom: 10px; padding: 20px 30px; color: #ffffff; background: #1d70b8; font-family: Arial, Helvetica, sans-serif; }
+.feedback-panel { margin-bottom: 10px; padding: 30px 30px 10px; color: #ffffff; background: #1d70b8; font-family: Arial, Helvetica, sans-serif; }
 
-.feedback-panel p, .feedback-panel a { color: #ffffff !important; }
+.feedback-panel p, .feedback-panel a, .feedback-panel h3 { color: #ffffff !important; }
 
 .govuk-accordion__controls { margin-bottom: 15px; }
 

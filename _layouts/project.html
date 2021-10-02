@@ -1,0 +1,49 @@
+---
+layout: default
+---
+<div class="govuk-width-container">
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+      <div class="govuk-breadcrumbs">
+        <ol class="govuk-breadcrumbs__list">
+        {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+        <li class="govuk-breadcrumbs__list-item"><a class="govuk-breadcrumbs__link" href="/">Home</a></li>
+        {% if page.collection == 'projects' %}
+        <li class="govuk-breadcrumbs__list-item"><a class="govuk-breadcrumbs__link" href="/projects.html">Projects</a></li>
+        <li class="govuk-breadcrumbs__list-item">{{ page.title }}</li>
+        {% endif %}
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="govuk-width-container">
+  <main class="govuk-main-wrapper " id="main-content" role="main">
+
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+        {% for projects in site.projects %}
+          <span class="govuk-caption-xl">Project</span>
+          <h2 class="govuk-heading-xl govuk-!-margin-bottom-5">{{ page.title }}</h2>
+          <strong class="govuk-tag">{{ projects.status }}</strong>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+        <article  class="govuk-body">
+
+          {{ content }}
+        </article>
+      </div>
+      <div class="govuk-grid-column-one-third">
+
+        {% include related.html %}
+      </div>
+    </div>
+    {% include feedback.html %}
+  </main>
+
+</div>
